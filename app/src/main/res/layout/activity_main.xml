@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/white"
+                app:navigationIcon="@drawable/ic_baseline_menu_24"
+                app:title="Trắc Nghiệm" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+
+
+
+
+<!--        <com.google.android.gms.ads.admanager.AdManagerAdView-->
+<!--            xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--            android:id="@+id/adManagerAdView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            ads:adSize="BANNER"-->
+<!--            ads:adUnitId="/6499/example/banner">-->
+<!--&lt;!&ndash;            /6499/example/banner-->
+<!--                ca-app-pub-9808019056055820/7208420226   &ndash;&gt;-->
+<!--&lt;!&ndash;            idqc&ndash;&gt;-->
+<!--        </com.google.android.gms.ads.admanager.AdManagerAdView>-->
+
+    </RelativeLayout>
+
+<!--    /6499/example/banner-->
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/layout_header_nav"
+        app:menu="@menu/menu_nav"
+        android:visibility="visible" />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

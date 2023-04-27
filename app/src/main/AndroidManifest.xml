@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.pcdongthap.tracnghiemspc">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/tracnghiem"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/tracnghiem"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TracNghiemSPC">
+        <activity
+            android:name=".user.HomeActivity"
+            android:exported="false" />
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <!-- AppID của app    ca-app-pub-9808019056055820~5372594375 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" /> <!-- idqc -->
+        <!-- pust notification firebase -->
+        <service
+            android:name=".fcm.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service> <!-- pust notification firebase -->
+        <activity
+            android:name=".PaperOnboardingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".user.SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".user.SignInActivity"
+            android:exported="true" /> <!-- <activity -->
+        <!-- android:name="app.pcdongthap.tracnghiemspc.user.SignInActivity" -->
+        <!-- android:exported="true" /> -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".slide.TestDoneActivity"
+            android:exported="true" />
+        <activity
+            android:name=".slide.ScreenSlidePagerActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

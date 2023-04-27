@@ -1,0 +1,2 @@
+TracNghiemSPC.jsk là file keystore mk là @nhKhoa206
+key alias là tracnghiemspc mk là @nhKhoa206

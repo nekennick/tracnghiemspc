@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">938730305686-4m4j8gebjnm4hoopoihahlg4q264h3nk.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">938730305686</string>
+    <string name="google_api_key" translatable="false">AIzaSyDhMCtRL3mqNZEvLIvz5kcWQ84vQbY35CQ</string>
+    <string name="google_app_id" translatable="false">1:938730305686:android:9181716ad5f7775cfdaab7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDhMCtRL3mqNZEvLIvz5kcWQ84vQbY35CQ</string>
+    <string name="google_storage_bucket" translatable="false">moduleuser-ddd5e.appspot.com</string>
+    <string name="project_id" translatable="false">moduleuser-ddd5e</string>
+</resources>
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">762927288679-ajm1opa0l3mtr8m97n4ctj2uq401vrui.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">762927288679</string>
+    <string name="google_api_key" translatable="false">AIzaSyDXuH7p9bvSO6ajCX2y7ty33QOTIsS68dg</string>
+    <string name="google_app_id" translatable="false">1:762927288679:android:c0d37fafef5e44a6c6dfc2</string>
+    <string name="google_crash_reporting_api_key">AIzaSyDhMCtRL3mqNZEvLIvz5kcWQ84vQbY35CQ</string>
+    <string name="google_storage_bucket" translatable="false">tracnghiemevnspc.appspot.com</string>
+    <string name="project_id" translatable="false">tracnghiemevnspc</string>
+</resources>

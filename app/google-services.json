@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "450531358858",
+    "firebase_url": "https://tracnghiemspc-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tracnghiemspc",
+    "storage_bucket": "tracnghiemspc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450531358858:android:e70a0173663983a16d9573",
+        "android_client_info": {
+          "package_name": "app.pcdongthap.tracnghiemspc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450531358858-ebpjnvcv6h88ildrj8081ghpiou4g8pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx1KBpSjSSwO4g_h9On0ScbpSpK2T88i8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450531358858-39c0bh78f095c37t853mgedb5ajamrjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
